@@ -1,4 +1,4 @@
-Para instalar o Google Test clone o [repositório](https://github.com/google/googletest) e rode os seguintes comandos:
+Este é um repositório para dar um exemplo concreto de uso Google Test numa implementação da função fatorial. Primeiro instale a biblioteca clonando o [repositório](https://github.com/google/googletest) e rodando os seguintes comandos:
 
 ```bash
 googletest$ mkdir build
@@ -9,11 +9,11 @@ googletest/build$ make
 googletest/build$ sudo make install
 ```
 
-Para compilar e rodar os testes faça
+Agora compile e rode os testes
 
 ```bash
 hello_googletest$ make
 hello_googletest$ ./tests
 ```
 
-Para entender o que está acontecendo dê uma olhada no `Makefile`, no `tests.cpp` e no [primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md).
+Por último leia o [primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) e os arquivos `tests.cpp` e o `Makefile` para entender o que está acontecendo.
