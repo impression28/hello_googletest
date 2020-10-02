@@ -16,4 +16,4 @@ hello_googletest$ make
 hello_googletest$ ./tests
 ```
 
-Para entender o que está acontecendo dê uma olhada no `Makefile`, no `tests.cpp` e no [primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)
+Para entender o que está acontecendo dê uma olhada no `Makefile`, no `tests.cpp` e no [primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md).
